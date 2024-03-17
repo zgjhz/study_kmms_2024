@@ -1,0 +1,5 @@
+/Users/mac/Desktop/study_kmms_2024/study_kmms_2024/projects/scl/src/cmake-build-debug/CMakeFiles/scl_lib.dir
+/Users/mac/Desktop/study_kmms_2024/study_kmms_2024/projects/scl/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/study_kmms_2024/study_kmms_2024/projects/scl/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mac/Desktop/study_kmms_2024/study_kmms_2024/projects/scl/src/cmake-build-debug/long_number/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/study_kmms_2024/study_kmms_2024/projects/scl/src/cmake-build-debug/long_number/CMakeFiles/rebuild_cache.dir
