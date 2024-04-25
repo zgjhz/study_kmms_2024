@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.2...3.27.5)
 project(study_kmms_2024)
 
 set(CMAKE_CXX_STANDARD 11)
+set(SCL_LIB "scl_lib")
 
 enable_testing()
 add_subdirectory(lib/googletest)

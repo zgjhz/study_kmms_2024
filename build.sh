@@ -15,9 +15,11 @@ cd "$BUILD_FOLDER" || exit
 cmake -G "$BUILD_TYPE" "../$SOURCE_FOLDER"
 cmake --build .
 
-arr=("bubble_sort" "bubble_sort_mf" "refactoring_and_print" "base_theory_p1" "base_theory_tasks_p1" "obuchaika" )
+arr=("bubble_sort" "bubble_sort_mf" "refactoring_and_print" "base_theory_p1" "base_theory_tasks_p1" "obuchaika"
+"scl/test/doubly_linked_list")
 
-files=("run_bubble_sort.sh" "run_bubble_sort_mf.sh" "run_refactoring_and_print.sh" "run_base_theory_p1.sh" "run_base_theory_tasks_p1.sh" "run_obuchaika.sh")
+files=("run_bubble_sort.sh" "run_bubble_sort_mf.sh" "run_refactoring_and_print.sh" "run_base_theory_p1.sh" "run_base_theory_tasks_p1.sh" "run_obuchaika.sh"
+"run_doubly_linked_list_test")
 
 for i in {0..5}; do
     cp "../$SOURCE_FOLDER/${arr[$i]}/${files[$i]}" "./${arr[$i]}"
