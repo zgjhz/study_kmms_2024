@@ -31,10 +31,10 @@ template <typename T>
 void DoublyLinkedList<T>::print() const noexcept {
     Node *ptr = begin;
     while(ptr != end){
-        std::cout << ptr->value << "\n";
+        std::cout << ptr->value << " ";
         ptr = ptr->next;
     }
-    std::cout << end->value << "\n";
+    std::cout << end->value;
 }
 
 template <typename T>
